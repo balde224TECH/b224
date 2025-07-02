@@ -28,16 +28,16 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .then(response => {
             if (response.ok) {
-                alert("✅ Requête envoyée avec succès à Telegram!");
+                alert(" Requête envoyée avec succès!");
                 // Réinitialisation du formulaire après envoi
                 document.getElementById(`boost-${platform.toLowerCase()}-form`).reset();
             } else {
-                alert("❌ Échec de l'envoi. Vérifiez votre connexion.");
+                alert(" Échec de l'envoi. Vérifiez votre connexion.");
             }
         })
         .catch(error => {
             console.error("Erreur:", error);
-            alert("⚠️ Erreur technique. Consultez la console.");
+            alert(" Erreur technique. Consultez la console.");
         });
     }
 
